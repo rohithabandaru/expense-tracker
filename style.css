@@ -1,0 +1,86 @@
+body {
+    background-color: #f4f6f8;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+}
+
+.container {
+    background: #fff;
+    padding: 20px;
+    width: 350px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+h2 {
+    text-align: center;
+}
+
+.balance {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.inc-exp {
+    display: flex;
+    justify-content: space-between;
+    background: #f1f1f1;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.plus {
+    color: green;
+}
+
+.minus {
+    color: red;
+}
+
+form input {
+    width: 100%;
+    padding: 8px;
+    margin: 5px 0;
+}
+
+.btn {
+    width: 100%;
+    padding: 10px;
+    background: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.list {
+    list-style: none;
+    padding: 0;
+}
+
+.list li {
+    background: #f9f9f9;
+    padding: 8px;
+    margin: 5px 0;
+    display: flex;
+    justify-content: space-between;
+    border-right: 5px solid;
+}
+
+.list li.plus {
+    border-color: green;
+}
+
+.list li.minus {
+    border-color: red;
+}
+
+.delete-btn {
+    background: red;
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 2px 6px;
+}
